@@ -561,8 +561,11 @@ footer .p1:first-of-type{
         height: 130vh;
         width: 100vw;
     }
-    .head-img{
+    .desktop-img{
         display: none;
+    }
+    .mobile-img{
+        width: 18rem;
     }
     header h1{
     font-size: 2.3rem;
