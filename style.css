@@ -641,4 +641,7 @@ header p{
     margin-left: 1.3rem;
     width: 20rem;
  }
+ .know-us{
+    display: none;
+ }
 }
