@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Averta,Arial,sans-serif;
+}
+nav{
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav:hover{
+   height: 100px;
+   transition: all .5s ease-in;
+}
+nav .logo{
+    line-height: 110px;
+    margin-left: 2rem;
+}
+.logo img{
+    width: 2.3rem;
+}
+.nav1{
+    display: flex;
+    gap: 1rem;
+  
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    line-height: 55px;
+
+}
+nav ul li{
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.vertical-line{
+    border-left: 2px solid gray;
+    height: 1.5rem;
+    position: relative;
+    top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.nav-download{
+    width: 12rem;
+    height: 3.5rem;
+    color: white;
+    background: darkblue;
+    border: none;
+    position: relative;
+    left: 32rem;
+    top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600; 
+    
+}
+header{
+    background-color: #92c1e9;
+    height: 130vh;
+}
+header h1{
+    font-size: 3.4rem;
+    /* margin: 0 0 1rem; */
+    font-family: Averta,Arial,sans-serif;
+    line-height: 1;
+    font-weight: 800;
+    margin-left: 6rem;
+    position: relative;
+    top: 4rem;
+    width: 30rem;
+
+
+}
+header p{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 38rem;
+    position: relative;
+    left: 50rem;
+    bottom: 3rem;
+    line-height: 1.3;
+    font-weight: 700;
+    
+}
+.head-text{
+    /* display: flex; */
+    color: #2084d9;
+    /* margin: 3rem; */
+    position: relative;
+    top: 5rem;
+
+}
+.head-download{
+    width: 15rem;
+    height: 3.9rem;
+    color: white;
+    background: darkblue;
+    border: none;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+    display: block;
+    font-weight: 900;
+}
+.head-img{
+    text-align: center;
+
+}
+.what-can-you-do{
+    margin-top: 14rem;
+}
+.what-can-you-do p{
+    font-size: 3rem;
+    font-family: Averta,Arial,sans-serif;
+    font-weight: 800;
+    width: 40rem;
+    margin-left:10rem;
+    margin-bottom: 3rem;
+}
+.doings1, .doings2{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.doings2{
+    margin-top: 1rem;
+}
+.browse-fast{
+    background-color: lightgreen;
+    width: 39rem;
+    height: 28rem;
+    text-align: center;
+}
+.connect{
+    background-color: rgb(251, 205, 213);
+    width: 39rem;
+    height: 28rem;
+    text-align: center;
+}
+.surf{
+    background-color: pink;
+    width: 39rem;
+    height: 28rem;
+    text-align: center;
+}
+.chat{
+    background-color: rgb(148, 208, 227);
+    width: 39rem;
+    height: 28rem;
+    text-align: center;
+}
+.browse-fast span, .chat span, .connect span, .surf span{
+    font-size: 1.2rem;
+    font-weight: 750;
+    position: relative;
+    top: 2rem;
+    font-family: Averta,Arial,sans-serif;
+}
+
+
+.browse-fast img, .chat img, .connect img, .surf img{
+   margin-top: 4.5rem;
+   margin-left: 1.3rem;
+}
+.enhanced-security-parent{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Averta,Arial,sans-serif;
+}
+.enhanced-child{
+    margin-top: 1rem;
+    width: 79rem;
+    height: 43rem;
+    background-color: #d4c9f8;
+    display: flex;
+}
+.enhanced-child h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-top: 8rem;
+    margin-left: 1.2rem;
+
+}
+.enhanced-child p{
+    line-height: 1.5rem;
+    margin-left: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    width: 30rem;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+}
+.enhanced-child img{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 2rem;
+    position: relative;
+    left: 3.4rem;
+}
+.enhanced-child span{
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-left: 1.2rem;
+    position: relative;
+    top: 1.2rem;
+}
+.enhanced-child ul {
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 580;
+    list-style: none;
+}
+.vpn-pro-btn{
+    background: linear-gradient(135deg,#3881fa,#a21fad 100.01%);
+    box-shadow: 0 4px 14px rgba(94,46,125,.2);
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all .2s ease;
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    color: white;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+}
+.vpn-pro-btn:hover{
+    background: linear-gradient(135deg,#286ad5,#7a1184 100.01%);
+}
+.free-vpn-btn{
+    background: #0199ff;
+    box-shadow: 0 4px 14px rgba(94,46,125,.2);
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all .2s ease;
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    color: white;
+    margin-left: 1.2rem;
+}
+.free-vpn-btn:hover{
+    background: #026fb8;
+}
+.features{
+    margin-top: 11rem;
+}
+.features-parent{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.features1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.features2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.features1 h3{
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-right: 10.5rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.features2 h3{
+    font-size: 2.4rem;
+    font-weight: 800;
+    /* margin-right: 10.5rem; */
+    margin-bottom: 1rem;
+}
+.features2 p{
+    width: 40rem;
+    line-height: 1.7rem;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+.features1 p{
+    width: 40rem;
+    line-height: 1.7rem;
+    font-weight: 550;
+    font-size: 1.2rem;
+    
+}
+.features1 img{
+
+}
+.switch{
+    background-color: #92c1e9;
+    height: 80vh;
+    margin-top: 6rem;
+}
+.switch-text{
+    display: flex;
+    color: #2084d9;
+    gap: 15rem;
+
+}
+.switch h2{
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    
+}
+.switch p{
+    font-size: 1.8rem;
+    width: 50rem;
+    margin-top: 7rem;
+    margin-right: 4rem;
+    font-weight: 600;
+}
+.switch button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+   background: rgb(9, 9, 149);
+   margin-top: 8rem;
+}
+.switch button:hover{
+    background-color: rgb(3, 3, 97);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
