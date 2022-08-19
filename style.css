@@ -118,6 +118,11 @@ header p{
     text-align: center;
 
 }
+.mobile-img{
+    position: relative;
+    bottom: 30rem;
+    left: 24rem;
+}
 .what-can-you-do{
     margin-top: 20rem;
 }
@@ -144,6 +149,7 @@ header p{
     height: 28rem;
     text-align: center;
 }
+
 .connect{
      background-color: #f5dadf;
     width: 39rem;
@@ -551,7 +557,7 @@ footer .p1:first-of-type{
 @media screen and (max-width:600px){
     body, html{
         overflow-x: hidden;
-        min-height: 100px;
+       height: 100%;
     }
     nav{
         height: 4.5rem;
@@ -598,6 +604,9 @@ footer .p1:first-of-type{
         width: 19rem;
         position: relative;
         bottom: 1rem;
+        position: relative;
+        bottom: 0;
+        left: 0;
     }
     header h1{
     font-size: 2.4rem;
@@ -610,7 +619,7 @@ footer .p1:first-of-type{
     margin-right: auto;
     display: block;
     position: relative;
-    top: 4rem;
+    top: 3.8rem;
     width: 20rem;
     text-align: left;
     padding-left: 1rem;
@@ -684,7 +693,8 @@ header p{
  .browse-fast span, .connect span{
     font-size: 1rem;
     padding-left: 1rem;
-    padding-right: 5rem;
+    padding-right: 2rem;
+    float: left;
  }
  .parent-doings1{
     margin-left: 0.3rem;
@@ -748,4 +758,61 @@ header p{
  .know-us{
     display: none;
  }
+.features{
+    margin-top: 6rem;
+}
+ .features1{
+    flex-direction: column;
+ }
+ .features2{
+    flex-direction: column-reverse;
+ }
+ .features1 img, .features2 img{
+    width: 100%;
+ }
+ .features1 h3{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 800;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 2rem;
+
+    
+    
+}
+.features2 h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 2rem;
+
+}
+
+.features2 p{
+    width: 22rem;
+    line-height: 1.6rem;
+    font-weight: 550;
+    font-size: 0.7rem;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 2rem;
+    padding-right: 1rem;
+
+}
+.features1 p{
+    width: 22rem;
+    line-height: 1.6rem;
+    font-weight: 550;
+    font-size: 0.7rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 2rem;
+
+    
+}
 }
