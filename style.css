@@ -492,7 +492,6 @@ footer ul{
     line-height: 2.4;
     letter-spacing: .03rem;
     font-size: 0.8rem;
-    /* display: none; */
    
     
 }
@@ -898,16 +897,16 @@ header p{
     width: 28%;
     margin-top: 0rem;
     line-height: 2.7rem;
-    margin-left: 22rem;
+    margin-left: 21.5rem;
 }
 .pink-text p{
     color: #fb637e;
-    font-size: 1.3rem;
-    width: 30%;
+    font-size: 1.1rem;
+    width: 28%;
     margin-top: 2rem;
     margin-right: 0rem;
     font-weight: 700;
-    margin-left: 22rem;
+    margin-left: 21.5rem;
     line-height: 1.8;
 }
 .pink button{
@@ -917,9 +916,10 @@ header p{
    margin-left: auto;
    margin-right: auto;
    display: block;
-   margin-top: 4rem;
+   margin-top: 0rem;
    position: relative;
    top: 6rem;
+
    color: white;
    border: none;
    font-size: 1.2rem;
@@ -935,23 +935,30 @@ header p{
 footer{
     background-color: #f2f2f2;
     text-transform: capitalize;
-    height: 100vh;
+    height: 58rem;
 }
 
 footer ul{
     line-height: 2.4;
     letter-spacing: .03rem;
     font-size: 0.8rem;
+    display: none;
    
     
 }
 .services, .legal, .community, .help{
     position: relative;
-    left: 10rem;
-    margin-top: 3rem;
+    left: 0rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+}
+.services{
+    margin-top: 2rem;
 }
 footer h3{
     margin-bottom: 1.4rem;
+    /* line-height: 0.1rem; */
 }
 footer ul li{
     list-style: none;
@@ -965,34 +972,37 @@ footer ul li:hover{
    padding-left: 0.2rem;
 }
 footer .brand{
-    margin-left: 16rem;
-    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-top: 0rem;
+   
     
 }
 footer .brand p{
     color: #b3b3b3;
     font-size: 1rem;
     line-height: normal;
-    width: 20rem;
     margin-top: 1.3rem;
+    width: 90%;
 }
 .footer-full-hl{
     border-bottom: 0.01rem solid rgb(160, 159, 159);
     width: 90%;
     margin-left: 7rem;
     margin-top: 3rem;
+    display: none;
 }
 
 footer .p1{
 
     color: #9d9d9d;
-    padding-left: 8rem;
+    padding-left: 1rem;
     line-height: 2rem;
     font-size: 0.9rem;
+    text-align: center;
    
 }
 footer .p1:first-of-type{
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .footer-icons{
     margin-top: 1rem;
@@ -1003,6 +1013,10 @@ footer .p1:first-of-type{
 .brand-hl{
     border-bottom: 1px solid gray;
     margin-top: 1rem;
+    width: 90%;
+}
+footer label img{
+    width: 50%;
 }
 
 }
