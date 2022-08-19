@@ -769,6 +769,7 @@ header p{
  }
  .features1 img, .features2 img{
     width: 100%;
+    margin-bottom: 1rem;
  }
  .features1 h3{
     width: 100%;
@@ -777,7 +778,7 @@ header p{
     padding-left: 2rem;
     margin-bottom: 1rem;
     position: relative;
-    bottom: 2rem;
+    bottom: 1.8rem;
 
     
     
@@ -788,7 +789,7 @@ header p{
     margin-bottom: 1rem;
     padding-left: 2rem;
     position: relative;
-    bottom: 2rem;
+    bottom: 1.8rem;
 
 }
 
