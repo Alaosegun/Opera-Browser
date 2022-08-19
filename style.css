@@ -601,7 +601,7 @@ footer .p1:first-of-type{
         display: none;
     }
     .mobile-img{
-        width: 19rem;
+        width: 80%;
         position: relative;
         bottom: 1rem;
         position: relative;
@@ -620,7 +620,7 @@ footer .p1:first-of-type{
     display: block;
     position: relative;
     top: 3.8rem;
-    width: 20rem;
+    width: 100%;
     text-align: left;
     padding-left: 1rem;
     /* right: 1rem; */
@@ -629,7 +629,7 @@ footer .p1:first-of-type{
 }
 header p{
     font-size: 1.1rem;
-    width: 20rem;
+    width: 90%;
     position: relative;
     left: 0;
     bottom: 0;
@@ -646,7 +646,7 @@ header p{
     
 }
 .head-download{
-    width: 17.5rem;
+    width: 80%;
     height: 3.5rem;
 }
 .what-can-you-do{
@@ -656,7 +656,7 @@ header p{
     font-size: 1.3rem;
     font-family: Averta,Arial,sans-serif;
     font-weight: 900;
-    width: 20rem;
+    width: 80%;
     margin-left: 1rem;
     margin-bottom: 1rem;
   /* text-align: center; */
@@ -688,13 +688,18 @@ header p{
 .browse-fast img, .chat img, .connect img, .surf img{
     margin-top: 4.5rem;
     margin-left: 1.3rem;
-    width: 18rem;
+    width: 70%;
  }
  .browse-fast span, .connect span{
     font-size: 1rem;
-    padding-left: 1rem;
-    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 0rem;
     float: left;
+    width: 90%;
+ }
+ .surf span{
+    width: 80%;
+    padding-left: 2rem;
  }
  .parent-doings1{
     margin-left: 0.3rem;
@@ -703,12 +708,12 @@ header p{
  .enhanced-child{
     margin-top: 1rem;
     width: 79rem;
-    height: 53rem;
+    height: 56rem;
     background-color: #d4c9f8;
     flex-direction: column-reverse;
 }
 .enhanced-child img{
-    width: 18rem;
+    width: 80%;
     margin-top: 0rem;
     position: relative;
     left: 7.4rem;
@@ -720,22 +725,24 @@ header p{
     margin-left: 1.2rem;
     position: relative;
     top: 1.2rem;
+    
 }
 .enhanced-child h3{
     font-size: 1.15rem;
     font-weight: 800;
     margin-top: 13rem;
-    margin-left:1.2rem;
+    margin-left:2rem;
+    width: 80%;
 
 }
 .enhanced-child p{
     line-height: 1.5rem;
-    margin-left: 1.2rem;
+    margin-left: 2rem;
     font-weight: 500;
     margin-top: 0.5rem;
-    width: 20rem;
     font-size: 1rem;
     line-height: 1.7rem;
+    width: 85%;
 }
 
 .enhanced-child ul {
@@ -748,7 +755,7 @@ header p{
     list-style: none;
 }
 .vpn-pro-btn, .free-vpn-btn{
-    width: 18rem;
+    width: 80%;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
@@ -794,26 +801,69 @@ header p{
 }
 
 .features2 p{
-    width: 22rem;
+    width: 90%;
     line-height: 1.6rem;
     font-weight: 550;
     font-size: 0.7rem;
     padding-left: 2rem;
     position: relative;
     bottom: 2rem;
-    padding-right: 1rem;
 
 }
 .features1 p{
-    width: 22rem;
+    width: 90%;
     line-height: 1.6rem;
     font-weight: 550;
     font-size: 0.7rem;
-    padding-right: 1rem;
+    padding-right: 0rem;
     padding-left: 2rem;
     position: relative;
     bottom: 2rem;
 
     
 }
+.switch{
+    background-color: #92c1e9;
+    height: 80%;
+    margin-top: 6rem;
+}
+.switch-text{
+   flex-direction: column;
+    color: #2084d9;
+    gap: 15rem;
+
+}
+.switch h2{
+    font-size: 1.87rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    width: 80%;
+    
+}
+.switch p{
+    font-size: 0.9rem;
+    width: 82%;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 13rem;
+    line-height: 1.7;
+}
+.switch button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 4rem;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+   background: rgb(9, 9, 149);
+   margin-top: 0rem;
+    position: relative;
+   bottom: 10rem;
+}
+
 }
