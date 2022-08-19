@@ -938,7 +938,7 @@ header p{
 footer{
     background-color: #f2f2f2;
     text-transform: capitalize;
-    height: 36rem;
+    height: 35rem;
 }
 
 footer ul{
@@ -962,7 +962,7 @@ footer ul{
 footer h3{
     margin-bottom: 1.4rem;
     /* line-height: 0.1rem; */
-   font-size: 1.1rem;
+   font-size: 1rem;
 }
 footer ul li{
     list-style: none;
