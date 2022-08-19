@@ -553,6 +553,16 @@ footer .p1:first-of-type{
     body, html{
         overflow-x: hidden;
     }
+    nav{
+        height: 4.5rem;
+    }
+    nav .logo{
+        margin-left: 2rem;
+        line-height: 6rem;
+    }
+    nav .vertical-line{
+        display: none;
+    }
     nav ul li{
         display: none;
     }
@@ -590,7 +600,7 @@ footer .p1:first-of-type{
     font-family: Averta,Arial,sans-serif;
     line-height: 1;
     font-weight: 900;
-    /* padding-left: 1rem; */
+    padding-left: 0.1rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -598,6 +608,7 @@ footer .p1:first-of-type{
     top: 4rem;
     width: 20rem;
     text-align: left;
+    padding-left: 1rem;
     /* right: 1rem; */
 
 
@@ -616,12 +627,12 @@ header p{
     margin-right: auto;
     display: block;
     font-weight: 700;
-    /* padding-left: 2rem; */
+     padding-left: 1rem; 
     /* padding-right: 1rem; */
     
 }
 .head-download{
-    width: 19.5rem;
+    width: 17.5rem;
     height: 3.5rem;
 }
 
