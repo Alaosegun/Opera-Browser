@@ -205,7 +205,7 @@ header p{
 }
 .enhanced-child img{
     width: 40rem;
-    height: 40rem;
+    /* height: 40rem; */
     margin-top: 2rem;
     position: relative;
     left: 3.4rem;
@@ -551,6 +551,7 @@ footer .p1:first-of-type{
 @media screen and (max-width:600px){
     body, html{
         overflow-x: hidden;
+        min-height: 100px;
     }
     nav{
         height: 4.5rem;
@@ -683,7 +684,7 @@ header p{
  .browse-fast span, .connect span{
     font-size: 1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 5rem;
  }
  .parent-doings1{
     margin-left: 0.3rem;
@@ -692,13 +693,12 @@ header p{
  .enhanced-child{
     margin-top: 1rem;
     width: 79rem;
-    height: 51rem;
+    height: 53rem;
     background-color: #d4c9f8;
     flex-direction: column-reverse;
 }
 .enhanced-child img{
     width: 18rem;
-    height: 38rem;
     margin-top: 0rem;
     position: relative;
     left: 7.4rem;
@@ -731,6 +731,7 @@ header p{
 .enhanced-child ul {
     margin-top: 2rem;
     margin-left: 1.2rem;
+    margin-right: 1rem;
     line-height: 2rem;
     font-size: 0.85rem;
     font-weight: 600;
