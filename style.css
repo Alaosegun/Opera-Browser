@@ -52,6 +52,20 @@ nav ul li{
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    position: relative;
+    left: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 .nav-download{
     width: 12rem;
     height: 3.5rem;
@@ -568,6 +582,9 @@ footer .p1:first-of-type{
     }
     nav{
         height: 4.5rem;
+    }
+    nav .logo{
+       margin-top: 0.3rem;
     }
     nav .logo{
         margin-left: 2rem;
@@ -1313,4 +1330,93 @@ header{
 footer{
     display: none;
 }
+}
+
+
+
+@media (max-width:952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    nav{
+        display: inline-block;
+        
+    }
+    nav label{
+        position: relative;
+        left: 1rem;
+    }
+
+}
+@media (max-width:600px){
+    .checkbtn{
+        display: block;
+        color: black;
+        margin-right: 3rem;
+        
+    }
+    nav{
+        background: white;
+        height: 4rem;
+        position: fixed;
+
+
+
+
+    }
+    .nav1{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .sign-btn{
+        display: none;
+    }
+   nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 0rem;
+        top: 100%;
+        margin-top: 4.2rem;
+        /* text-align: center; */
+        transition: all .5s;
+        /* margin-right: auto;
+        margin-left: auto; */
+        flex-direction: column;
+    
+    }
+    .nav-hl{
+        border-bottom: 1px solid grey;
+        width: 80%;
+        margin-left:2rem ;
+    }
+    .nav-long-hl{
+        border-bottom: 1px solid grey;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin: 4%;
+        right: 0rem;
+        position: relative;
+        line-height: 1rem;
+        text-transform: uppercase;
+    }
+    nav ul li a{
+        font-size: 2rem;
+        color: white;
+    }
+    a:hover,a.active{
+        background: none;
+        color: gray;
+    }
+    #check:checked~ ul {
+        top: 0;
+    }
+
 }
