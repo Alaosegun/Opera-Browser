@@ -1046,6 +1046,7 @@ footer .p1:first-of-type{
 }
 footer label img{
     width: 35%;
+    margin-top: 1rem;
 }
 .footer-nav-hl{
     border-bottom: 1px solid grey;
@@ -1339,6 +1340,15 @@ footer{
 
 
     }
+    .nav-dropdown-flex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .drop-down-img{
+        margin-top: 1.5rem;
+        margin-right: 3rem;
+    }
     .nav1{
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -1353,11 +1363,9 @@ footer{
         background: white;
         top: 0rem;
         top: 100%;
+
         margin-top: 4.2rem;
-        /* text-align: center; */
-        transition: all .5s;
-        /* margin-right: auto;
-        margin-left: auto; */
+        transition: ease-in .5s;
         flex-direction: column;
     
     }
