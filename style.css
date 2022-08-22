@@ -676,6 +676,10 @@ header p{
     width: 80%;
     height: 3.5rem;
 }
+.head-download:hover{
+    background-color: rgb(2, 2, 99);
+    cursor: pointer;
+}
 .what-can-you-do{
     margin-top: 5rem;
 }
