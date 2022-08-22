@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    user-select: none;
 }
 body{
     font-family: Averta,Arial,sans-serif;
@@ -38,6 +39,9 @@ nav ul{
     list-style: none;
     line-height: 55px;
 
+}
+nav .drop-down-img{
+    display: none;
 }
 nav ul li{
     padding: 1rem;
@@ -1345,6 +1349,9 @@ footer{
         justify-content: space-between;
         
     }
+    nav .drop-down-img{
+    display: block;
+}
     .drop-down-img{
         margin-top: 1.5rem;
         margin-right: 3rem;
