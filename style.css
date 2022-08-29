@@ -25,6 +25,7 @@ nav:hover{
 nav .logo{
     margin-left: 2rem;
     line-height: 7rem;
+    display: flex;
 }
 .logo img{
     width: 2.3rem;
@@ -599,13 +600,11 @@ footer .p1:first-of-type{
     nav{
         height: 4.5rem;
     }
-    
-    nav .logo{
-       line-height: 5rem;
-    }
     nav .logo{
         margin-left: 2rem;
         line-height: 6rem;
+        display: block;
+        line-height: 5rem;
     }
     nav:hover{
         height: 5.2rem;
@@ -1114,7 +1113,6 @@ nav ul{
      background: white;
      top: 0rem;
      top: 100%;
-
      margin-top: 4.2rem;
      transition: ease-in .5s;
      flex-direction: column;
