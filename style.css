@@ -25,7 +25,6 @@ nav:hover{
 nav .logo{
     margin-left: 2rem;
     line-height: 7rem;
-    display: flex;
 }
 .logo img{
     width: 2.3rem;
@@ -40,7 +39,7 @@ nav ul{
     display: flex;
     list-style: none;
     line-height: 55px;
-
+   margin-right: 35%;
 }
 nav .drop-down-img{
     display: none;
@@ -73,14 +72,14 @@ nav ul li{
     display: none;
 }
 .nav-download{
-    width: 13%;
+    width: 12rem;
     height: 3.5rem;
     color: white;
     background: darkblue;
     border: none;
     position: relative;
     /* left: 44rem; */
-    margin-right: 2rem;
+    margin-right: 4rem;
     top: 1rem;
     font-size: 0.8rem;
     font-weight: 600; 
@@ -149,7 +148,7 @@ header p{
 }
 .mobile-img{
     position: absolute;
-    top: 38rem;
+    top: 32rem;
     left: 60rem;
 }
 .what-can-you-do{
@@ -600,11 +599,13 @@ footer .p1:first-of-type{
     nav{
         height: 4.5rem;
     }
+    
+    nav .logo{
+       line-height: 5rem;
+    }
     nav .logo{
         margin-left: 2rem;
         line-height: 6rem;
-        display: block;
-        line-height: 5rem;
     }
     nav:hover{
         height: 5.2rem;
@@ -1113,6 +1114,7 @@ nav ul{
      background: white;
      top: 0rem;
      top: 100%;
+    margin-right: 0;
      margin-top: 4.2rem;
      transition: ease-in .5s;
      flex-direction: column;
