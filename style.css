@@ -18,7 +18,7 @@ nav{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav:hover{
-   height: 100px;
+   /* height: 100px; */
    transition: all .6s ease-in;
    line-height: 90px;
 }
@@ -49,6 +49,7 @@ nav ul li{
     font-size: 0.8rem;
     font-weight: 500;
 }
+
 .vertical-line{
     border-left: 2px solid gray;
     height: 1.5rem;
@@ -540,13 +541,10 @@ footer ul li{
     list-style: none;
     font-weight: 550;
     color: rgb(64, 64, 64);
+    /* padding: 0 10px; */
 
 }
-footer ul li:hover{
-    cursor: pointer;
-   color: purple;
-   padding-left: 0.2rem;
-}
+
 footer .brand{
     margin-left: 20rem;
     margin-top: 3rem;
