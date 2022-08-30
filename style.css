@@ -975,7 +975,7 @@ header p{
 footer{
     background-color: #f2f2f2;
     text-transform: capitalize;
-    height: 35rem;
+    height: 37rem;
 }
 
 footer ul{
@@ -1034,7 +1034,7 @@ footer .brand p{
 }
 
 footer .p1{
-
+    width: 100%;
     color: #9d9d9d;
     padding-left: 0.7rem;
     line-height: 2rem;
@@ -1150,7 +1150,7 @@ nav ul{
     justify-content: space-between;
 }
 .language{
-    width: 10rem;
+    width: 40%;
     background-color: transparent;
     border: 1.5px solid black;
     height: 3rem;
@@ -1162,7 +1162,7 @@ nav ul{
    list-style: none;
 }
 .language li{
-    margin-left: 1rem;
+    margin-left: 0.6rem;
     margin-top: 1rem;
 }
 .inside-language-dropdown-flex{
@@ -1170,7 +1170,7 @@ nav ul{
     justify-content: space-between;
 }
 .inside-language-dropdown-flex img{
-    margin-right: 0.8rem;
+    margin-right: 0.6rem;
     margin-top: 0.5rem;
 }
 }
