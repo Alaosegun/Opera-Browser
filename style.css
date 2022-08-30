@@ -1036,10 +1036,9 @@ footer .brand p{
 footer .p1{
 
     color: #9d9d9d;
-    padding-left: 1rem;
+    padding-left: 0.7rem;
     line-height: 2rem;
     font-size: 0.9rem;
-    text-align: center;
    
 }
 footer .p1:first-of-type{
@@ -1146,6 +1145,34 @@ nav ul{
  #check:checked~ ul {
      top: 0;
  }
+ .copy-right-and-language-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    width: 10rem;
+    background-color: transparent;
+    border: 1.5px solid black;
+    height: 3rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   margin-right: 1rem;
+   font-size: 0.8rem;
+   font-weight: 600;
+   list-style: none;
+}
+.language li{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.inside-language-dropdown-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.inside-language-dropdown-flex img{
+    margin-right: 0.8rem;
+    margin-top: 0.5rem;
+}
 }
 
 @media screen and (min-width:601px) and (max-width:124px){
